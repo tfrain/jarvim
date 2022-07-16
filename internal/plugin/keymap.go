@@ -65,7 +65,7 @@ nmap <C-w>] :vertical resize +3<CR>
 
 " Session management shortcuts (see plugin/sessions.vim)
 nmap <Leader>ss :<C-u>SessionSave<CR>
-nmap <Leader>sl :<C-u>SessionLoad<CR>
+nmap <Leader>sl :<C-u>CocCommand session.load<CR>
 `
 
 const BuffetKeyMap = `
@@ -210,6 +210,8 @@ nnoremap <silent> <Leader>fl :<C-u>Clap loclist<CR>
 nnoremap <silent> <Leader>fu :<C-u>Clap git_diff_files<CR>
 nnoremap <silent> <Leader>fv :<C-u>Clap grep ++query=@visual<CR>
 nnoremap <silent> <Leader>oc :<C-u>Clap personalconf<CR>
+nnoremap <silent> <Leader>. :<C-u>Clap providers<CR>
+nnoremap <silent> <Leader>ft :<C-u>Clap tags<CR>
 `
 const CawKeyMap = `
 function! InitCaw() abort
@@ -326,9 +328,9 @@ nnoremap <silent> <Leader>ga :Git add %:p<CR>
 nnoremap <silent> <Leader>gd :Gdiffsplit<CR>
 nnoremap <silent> <Leader>gc :Git commit<CR>
 nnoremap <silent> <Leader>gb :Git blame<CR>
-nnoremap <silent> <Leader>gf :Gfetch<CR>
+nnoremap <silent> <Leader>gf :Git fetch<CR>
 nnoremap <silent> <Leader>gs :Git<CR>
-nnoremap <silent> <Leader>gp :Gpush<CR>
+nnoremap <silent> <Leader>gp :Git push origin $(git rev-parse --abbrev-ref HEAD)<CR>
 `
 
 const NerdTreeKeyMap = `
