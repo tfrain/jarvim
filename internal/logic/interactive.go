@@ -5,12 +5,12 @@
 package logic
 
 import (
-	"github.com/glepnir/jarvim/internal/plugin"
-	"github.com/glepnir/jarvim/internal/render"
-	"github.com/glepnir/jarvim/internal/render/dein"
-	"github.com/glepnir/jarvim/internal/render/vimplug"
-	"github.com/glepnir/jarvim/internal/vim"
-	"github.com/glepnir/jarvim/pkg/cli"
+	"github.com/tfrain/jarvim/internal/plugin"
+	"github.com/tfrain/jarvim/internal/render"
+	"github.com/tfrain/jarvim/internal/render/dein"
+	"github.com/tfrain/jarvim/internal/render/vimplug"
+	"github.com/tfrain/jarvim/internal/vim"
+	"github.com/tfrain/jarvim/pkg/cli"
 )
 
 // PluginManage return the plugin management plugin

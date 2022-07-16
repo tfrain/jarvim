@@ -1,4 +1,4 @@
-module github.com/glepnir/jarvim
+module github.com/tfrain/jarvim
 
 go 1.14
 

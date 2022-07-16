@@ -9,8 +9,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/glepnir/jarvim/internal/logic"
 	"github.com/spf13/cobra"
+	"github.com/tfrain/jarvim/internal/logic"
 )
 
 var (

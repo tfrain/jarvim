@@ -5,11 +5,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/glepnir/jarvim/internal/plugin"
-	"github.com/glepnir/jarvim/internal/render"
-	"github.com/glepnir/jarvim/internal/vim"
-	"github.com/glepnir/jarvim/pkg/color"
-	"github.com/glepnir/jarvim/template"
+	"github.com/tfrain/jarvim/internal/plugin"
+	"github.com/tfrain/jarvim/internal/render"
+	"github.com/tfrain/jarvim/internal/vim"
+	"github.com/tfrain/jarvim/pkg/color"
+	"github.com/tfrain/jarvim/template"
 )
 
 // Dein plugin management

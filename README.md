@@ -13,7 +13,7 @@
 
 ## Install
 
-You can download build binary file from release page https://github.com/glepnir/jarvim/releases
+You can download build binary file from release page https://github.com/tfrain/jarvim/releases
 
 **MacOs brew**
 
@@ -25,7 +25,7 @@ brew install jarvim
 **Linux**
 
 ```console
-curl -fLo  install.sh https://raw.githubusercontent.com/glepnir/jarvim/master/install.sh
+curl -fLo  install.sh https://raw.githubusercontent.com/tfrain/jarvim/master/install.sh
 sh install.sh
 ./jarvim -g
 ```
@@ -38,7 +38,7 @@ go get github.com/glepnir/jarvim
 
 ## Usage
 
-**Here is a [gif](https://github.com/glepnir/jarvim/wiki) to show how to use jarvim.**
+**Here is a [gif](https://github.com/tfrain/jarvim/wiki) to show how to use jarvim.**
 
 ```
  -v to print jarvim version.

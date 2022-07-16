@@ -4,7 +4,7 @@
 
 package main
 
-import "github.com/glepnir/jarvim/internal/cli"
+import "github.com/tfrain/jarvim/internal/cli"
 
 func main() {
 	cli.Execute()
