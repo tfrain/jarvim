@@ -33,7 +33,7 @@ sh install.sh
 **Install From Source**
 
 ```go
-go get github.com/glepnir/jarvim
+go get github.com/tfrain/jarvim
 ```
 
 ## Usage

@@ -1,8 +1,8 @@
 module github.com/tfrain/jarvim
 
-go 1.14
+go 1.16
 
 require (
-	github.com/AlecAivazis/survey/v2 v2.0.8
-	github.com/spf13/cobra v1.0.0
+	github.com/AlecAivazis/survey/v2 v2.3.5
+	github.com/spf13/cobra v1.5.0
 )
